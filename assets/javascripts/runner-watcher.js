@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',function(){
     series: [
       {
         name: 'Dividend',
-        data: [10.3, 8.6, 9.6, 7.4, 8.2, 13, 7, 6, 8, 9, 12]
+        data: [10.3, 8.6, 9.6, 7.4, 8.2, 8.4, 7, 6.5, 7.2, 8.5, 8.9]
       }
     ]
   };
