@@ -11,11 +11,22 @@ $background-color:  #ec663c;
   background-color: $background-color;
   position: relative;
 
-  .title {
+  .title-wrapper {
     position: absolute;
     top: 5px;
     left: 0px;
     right: 0px;
+  }
+
+  .title,
+  .sub-title {
+    display: inline-block;
+  }
+
+  .sub-title {
+    &::before { content: '('; }
+    &::after { content: ')'; }
+    font-size: 15px;
   }
 
   .chart {

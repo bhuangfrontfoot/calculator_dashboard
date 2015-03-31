@@ -36,6 +36,7 @@ class Dashing.GoogleColumn extends Dashing.Widget
       @data = google.visualization.arrayToDataTable []
 
     @chart.draw @data, @options
+    @set('sub-title', 'Melbourne R3')
 
   onData: (data) ->
     if @chart

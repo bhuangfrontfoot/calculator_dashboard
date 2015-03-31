@@ -35,6 +35,7 @@ class Dashing.GoogleLine extends Dashing.Widget
     else
       @data = google.visualization.arrayToDataTable []
 
+    @set('sub-title', 'Black Caviar')
     @chart.draw @data, @options
 
   onData: (data) ->
