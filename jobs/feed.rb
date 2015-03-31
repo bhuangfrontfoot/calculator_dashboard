@@ -4,11 +4,11 @@ feed_response = [
   {label: 'Late Scratching', value: 'WARRNABMOOL (Racing) R1: 7 (L) - SONDAICA'},
   {label: 'Late Mail', value: 'BG05 ALBION PARK: 12.JUSTABITCOCO'},
   {label: 'Late Mail', value: 'AG11 GAWLER : 7.ALHANNA'},
-  {label: 'Info', value: 'Two Way adds fixed odds betting to TAB ACTIVE'}
+  {label: 'Info', value: 'Two Way adds fixed odds betting to TAB ACTIVE'},
   {label: 'JackPot', value: 'Jackpot information'}
 ]
 
-SHOW_SIZE = 3
+SHOW_SIZE = 5
 
 pushed_feeds = []
 
