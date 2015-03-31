@@ -13,5 +13,9 @@ pushed_feeds = []
 SCHEDULER.every '10s' do
   pushed_feeds.push( feed_messages.sample )
 
-  send_event('feed', {items: pushed_feeds.last(SHOW_SIZE)})
+  feeds_collection = pushed_feeds.last(SHOW_SIZE).map {|feed|
+    {label: '-', value: feed}
+  }
+
+  send_event('feed', {items: feeds_collection})
 end
