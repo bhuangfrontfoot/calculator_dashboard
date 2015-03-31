@@ -1,9 +1,16 @@
 <% content_for :title do %>Calculator Dashboard<% end %>
 <div class="gridster">
   <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Image" data-image="/logo.png" style="background: white;"></div>
+    </li>
+
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-view="Clock"></div>
       <i class="icon-time icon-background"></i>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+      <div id="my-chart" class="ct-chart ct-perfect-fourth" style="background: white;width: 100%;"></div>
     </li>
   </ul>
 </div>
